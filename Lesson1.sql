@@ -1,4 +1,11 @@
 --How to create a Database
+
+/**
+Develope: Jeremiah
+Date: 11/04/2025
+
+**/
+
 Create Database EmadeDev
 
 --create another Database and call it EmadeTest and another as EmadeProd
@@ -50,7 +57,22 @@ From Customer
 
 --ASSIGNMENT
 --Show the Gender = Male
---Show FirstNAme = Jerry
+--Show CustomerFirstNAme = Jerry
 --Show Record of People = Single
+
+--Show the Gender = Male
+Select *
+From Customer
+Where Gender = 'M'
+
+--Show FirstNAme = Jerry
+Select *
+From Customer
+Where CustomerFirstName = 'Jerry'
+
+--Show Record of People = Single
+Select *
+From Customer
+Where MaritalStatus = 'Single'
 
 
